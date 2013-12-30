@@ -1,0 +1,25 @@
+{
+  "name": "Facebook AI Chat Bot",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Facebook AI Chat Bot Plugin Developed By Debasish Mandal",
+  "browser_action": {"default_icon": "logo.png",
+		      "name": "Facebook Chat Bot",
+		      "default_popup": "popup.html"
+		      },
+  "icons": {
+      "48": "logo.png"
+   },
+  "content_scripts": [
+    {
+      "matches": ["*://www.facebook.com/*"],
+      "js": ["main.js","jquery.min.js"]
+    }
+   ],
+  "permissions": ["tabs","*://www.facebook.com/*","webRequest","webRequestBlocking","management","storage"],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}

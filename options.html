@@ -1,0 +1,56 @@
+<html>
+<head>
+<script src="options.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css'>
+<style>
+* {
+    font-family: 'Noto Serif', serif;;
+}
+</style>
+</head>
+<body>
+<div id="header"><h1><img height="50" width="50" src="logo.png">AutoPing - An Intelligent Facebook Chat Bot</h1></div>
+<hr>
+<div id="leftmenu" style="position:absolute;top:20%;left:2%">
+<a href="#" id="Settings">Settings</a><br>
+<a href="#" id="rate">Rate This Application</a><br>
+<a href="#" id="About">About</a><br>
+</div>
+<div id="container">
+  <div id="title" style="position:absolute;top:20%;left:20%;"><b>Reply Settings :</b></div>
+  <!--Radio Buttons-->
+  <div id="radiobutton" style="position:absolute;top:25%;left:20%;">
+  <form>
+  <input type="radio" id="myradio1" name="name">Reply To All<br>
+  <input type="radio" id="myradio2" name="name">Reply To Specific Persons<br>
+  <input type="radio" id="myradio3" name="name">Reply to all Except these :
+  </form>
+  </div>
+
+  <!--TExt Fieled-->
+  <div id="textfield" style="position:absolute;top:35%;left:20%;visibility:hidden;">
+  Enter Name : <input id="name" type="text" value=""><input id="add" type="submit" value="Add Name">
+  </div>
+
+  <!--Name List-->
+  <div id="namelist" style="position:absolute;top:40%;left:20%;visibility:hidden;"></div>
+
+  <!--custom Reply Starts Here-->
+  <div id="title1" style="position:absolute;top:20%;left:50%;"><b>Custom Reply Settings :</b></div>
+  <div id="radiobutton" style="position:absolute;top:25%;left:50%;">
+  <input type="radio" id="myradio4" name="name">Use Intelligent Chat Server to Reply<br>
+  <input type="radio" id="myradio6" name="name">Always Reply with : <input id="static_mess" type="text" value="" style="visibility:hidden;"><input id="add2" type="submit" value="Save" style="visibility:hidden;"><br>
+  <input type="radio" id="myradio5" name="name">Configure Bot Reply<br>
+  </div>
+
+  <div id="textfield1" style="position:absolute;top:35%;left:50%;visibility:hidden;">
+    <input id="chat" type="text" value=""><input id="reply" type="text" value=""><input id="add1" type="submit" value="Add Custom Message">
+  </div>
+
+  <div id="chatlist" style="position:absolute;top:40%;left:50%;visibility:hidden;"></div>
+
+  <div id="faltu" style="visibility:hidden;"><img class="trash" src="Trash.png"></div>
+</div>
+<div id="footer" style="position:absolute;top:97%;left:20%;font-size:10px">AutoPing© 2013 | AutoPing - Facebook Chat Bot is not endorsed by Facebook. All Rights Reserved and Everything is Copyright by <a href="http://www.debasish.in/p/about-me.html">Debasish Mandal</a>, unless otherwise indicated</div>
+</body>
+</html>
