@@ -3,6 +3,10 @@ Facebook AI Chat Bot Chrome PlugIn
 
 A Half Done Facebook Artificial Intelligent Chat Bot (Chrome Plugin).
 
+Video Demo :
+
+https://www.facebook.com/photo.php?v=580117972019107&l=7721432607306414582
+
 
 Here is my Facebook Artificial Intelligent Chat bot plugin, I developed it, almost years back..It should work properly if Facebook did not make any significant changes in there chat UI(element , class names etc)
 
