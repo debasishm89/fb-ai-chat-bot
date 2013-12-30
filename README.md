@@ -8,5 +8,11 @@ Here is my Facebook Artificial Intelligent Chat bot plugin, I developed it, almo
 
 Was planning to add an UI to it, But still not completely done.. :( :(
 
+
+Anstead of using intelligent chat bot server, you can also configure custom reply to your friends. Example given below
+
+![alt tag](https://raw.github.com/debasishm89/fb-ai-chat-bot/master/options.png)
+
+
 Actual intelligent bot is hosted in Google app engine, So this plugin bypasses Facebook's content security policy by striping few response headers, to communicate with app engine server. So use at your own risk.
 
