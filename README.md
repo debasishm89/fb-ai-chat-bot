@@ -8,7 +8,7 @@ Video Demo :
 https://www.facebook.com/photo.php?v=580117972019107&l=7721432607306414582
 
 
-Here is my Facebook Artificial Intelligent Chat bot plugin, I developed it, almost years back..It should work properly if Facebook did not make any significant changes in there chat UI(element , class names etc)
+Here is my Facebook Artificial Intelligent Chat bot plugin, I developed it, almost 1 year back..It should work properly if Facebook did not make any significant changes in there chat UI(element , class names etc)
 
 Was planning to add an UI to it, But still not completely done.. :( :(
 
